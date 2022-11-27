@@ -59,7 +59,10 @@ Program for  Implementation-of Shift-registers-using-verilog-
 Developed by: Meenakshi M
 RegisterNumber: 212221230057
 */
+```
+
 # PISO:
+```
 module piso(Clk, Parallel_In,load, Serial_Out);
 input Clk,load;
 input [3:0]Parallel_In;
@@ -76,8 +79,10 @@ tmp<={tmp[2:0],1'b0};
 end
 end
 endmodule
+```
 
 # PIPO:
+```
 module pipo(PI,Clk,PO);
 input Clk;
 input [3:0] PI;
@@ -87,8 +92,10 @@ begin
 PO=PI;
 end 
 endmodule 
+```
 
 # SIPO:
+```
 module sipo(SI,Clk,Po);
 input SI,Clk;
 output [0:7]  Po;
